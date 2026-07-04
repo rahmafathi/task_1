@@ -7,10 +7,6 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-/* html {
-    scroll-behavior: smooth;
-} */
-
 body {
     background-color: #F4F0FA;
     color: #4A4557;
@@ -146,13 +142,6 @@ p {
     transform: translateY(-6px);
     border-color: #7F56DA;
     box-shadow: 0 12px 30px rgba(127, 86, 218, 0.08);
-}
-
-.spotlights .image img {
-    width: 280px;
-    height: 200px;
-    object-fit: cover;
-    display: block;
 }
 
 .spotlights .content {
@@ -304,7 +293,6 @@ footer a {
     font-weight: 500;
 }
 
-/* إخفاء جزء الحقوق الجانبية تماماً */
 footer .menu {
     display: none;
 }
@@ -317,7 +305,6 @@ footer .menu {
     #wrapper, footer { margin-left: 0; width: 100%; background-color: #F4F0FA; }
     .wrapper { padding: 5rem 2rem; }
     .spotlights section { flex-direction: column; text-align: center; }
-    .spotlights .image img { width: 100%; height: 220px; }
     .contact { flex-direction: column; gap: 1.5rem; }
     footer .menu { display: none; }
 }
